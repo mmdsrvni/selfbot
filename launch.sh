@@ -7,73 +7,73 @@ mv telegram-cli-1222 tg
 
 chmod +x tg
 
-sudo apt-get install libreadline-dev -y
+apt-get install libreadline-dev -y
 
-sudo apt install libreadline-dev -y
+apt install libreadline-dev -y
 
-sudo apt-get install libreadline6 -y
+apt-get install libreadline6 -y
 
-sudo apt-get install libreadline6-dev -y
+apt-get install libreadline6-dev -y
 
-sudo apt-get install libconfig-dev -y
+apt-get install libconfig-dev -y
 
-sudo apt-get install libssl-dev -y
+apt-get install libssl-dev -y
 
-sudo apt-get install lua5.2 -y
+apt-get install lua5.2 -y
 
-sudo apt-get install liblua5.2-dev -y
+apt-get install liblua5.2-dev -y
 
-sudo apt-get install lua-socket -y
+apt-get install lua-socket -y
 
-sudo apt-get install lua-sec -y
+apt-get install lua-sec -y
 
-sudo apt-get install lua-expat -y
+apt-get install lua-expat -y
 
-sudo apt-get install libevent-dev -y
+apt-get install libevent-dev -y
 
-sudo apt-get install make -y
+apt-get install make -y
 
-sudo apt-get install unzip -y-
+apt-get install unzip -y-
 
-sudo apt-get install git -y
+apt-get install git -y
 
-sudo apt-get install redis-server -y
+apt-get install redis-server -y
 
-sudo apt-get install autoconf -y
+apt-get install autoconf -y
 
-sudo apt-get install g++ -y
+apt-get install g++ -y
 
-sudo apt-get install libjansson-dev -y
+apt-get install libjansson-dev -y
 
-sudo apt-get install libpython-dev -y
+apt-get install libpython-dev -y
 
-sudo apt-get install expat libexpat1-dev -y
+apt-get install expat libexpat1-dev -y
 
-sudo apt-get install ppa-purge -y
+apt-get install ppa-purge -y
 
-sudo apt-get install python3-pip -y
+apt-get install python3-pip -y
 
-sudo apt-get install python3-dev -y
+apt-get install python3-dev -y
 
-sudo apt-get install software-properties-common -y
+apt-get install software-properties-common -y
 
-sudo apt-get install python-software-properties -y
+apt-get install python-software-properties -y
 
-sudo apt-get install gcc-6 -y
+apt-get install gcc-6 -y
 
-sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test 
+add-apt-repository -y ppa:ubuntu-toolchain-r/test 
 
-sudo apt-get update
+apt-get update
 
-sudo apt-get upgrade
+apt-get upgrade
 
-sudo apt-get dist-upgrade
+apt-get dist-upgrade
 
-sudo ppa-purge
+ppa-purge
 
-sudo pip3 install redis
+pip3 install redis
 
-sudo service redis-server restart
+service redis-server restart
 
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
 
@@ -87,9 +87,9 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
 
  cd ..
 
-sudo luarocks install serpent
+luarocks install serpent
 
-sudo luarocks install redis-lua
+luarocks install redis-lua
 
 chmod 777 tg
 
